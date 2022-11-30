@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo</title>
+  <link rel="stylesheet" href="./src/index.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="form-container">
+      <form class="todo-form" id="initialForm">
+        <input class="todo-input" id="inputForm" type="text" placeholder="What's on your mind.." />
+        <button id="addItem" class="btn">Create</button>
+      </form>
+    </div>
+
+    <div class="todos-container">
+      <header class="todos-title">
+        <h4>Todos</h4>
+        <button id="clearTemplate" class="btn">Empty</button>
+      </header>
+      <hr />
+      <ul id="todo-list"></ul>
+    </div>
+
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
